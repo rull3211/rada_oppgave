@@ -1,0 +1,18 @@
+.grey{
+    background-color: rgb(211, 210, 210);
+}
+.grey:active, .grey:focus, .grey:hover{
+    border: black 2px solid;
+    background-color: white;
+}
+.white:active, .white:focus, .white:hover{
+    border: black 2px solid;
+    background-color: rgb(211, 210, 210);
+}
+.grey,.white{
+    cursor: pointer;
+}
+.sectionBody{
+    width: 70%;
+    margin: auto;
+}
